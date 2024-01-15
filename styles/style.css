@@ -1,0 +1,55 @@
+/* Global CSS */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+body {
+    padding: 25px 135px 0;
+    font-family: "Mulish", sans-serif;
+}
+
+p,
+a {
+    color: rgba(19, 19, 24, 0.70);
+}
+
+h3,
+h6 {
+    color: #131318;
+}
+
+:root {
+    --button-color: #FF5400;
+}
+
+/* NavBar CSS */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-left h3 {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.nav-left h3>span {
+    color: var(--button-color);
+}
+
+.nav-right {
+    display: flex;
+    gap: 2.75rem;
+}
+
+.nav-right a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+}
