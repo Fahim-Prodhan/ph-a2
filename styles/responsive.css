@@ -6,11 +6,17 @@
     section {
         margin-top: 24px;
     }
+    .section-title{
+        font-size: 22px;
+        font-weight: 800;
+        margin-bottom: 16px;
+    }
 
     p,
     li,
     a {
         line-height: 20px;
+        font-size: 14px;
     }
 
     /* navbar */
@@ -67,6 +73,24 @@
     .popular-img {
         width: 100%;
     }
+
+    /* Choose section */
+    .choose-description {
+        padding: 0px;
+    }
+
+    .choose-card-container {
+        margin-top: 16px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .choose-card-3 {
+        padding: 32px;
+        width: 82%;
+        grid-column: span 1;
+        justify-self: self-start;
+    }
+
 }
 
 @media screen and (min-width:601px) and (max-width:991px) {
@@ -90,6 +114,14 @@
 
     .popular-img {
         width: 100%;
+    }
+
+    /* Choose section */
+    .choose-card-container {
+        margin-top: 20px;
+    }
+    .choose-description {
+        padding: 50px;
     }
 
 }

@@ -11,10 +11,10 @@ section {
 }
 
 .section-title {
-font-size: 40px;
-font-weight: 800;
-margin-bottom: 24px;
-margin-top: 0;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    margin-top: 0;
 }
 
 p,
@@ -28,6 +28,7 @@ h3,
 h6 {
     color: #131318;
 }
+
 button {
     cursor: pointer;
 }
@@ -145,6 +146,7 @@ button {
     border-radius: 8px;
     color: #FFF;
     background: var(--button-color);
+    font-weight: 700;
 }
 
 /* Popular CSS */
@@ -153,16 +155,20 @@ button {
     display: flex;
     gap: 10%;
 }
-.popular-description{
+
+.popular-description {
     margin: 0 0 24px 0;
 }
+
 .popular-description-2 {
     margin: 8px 0 0px 0;
     color: #5A5A5D;
 }
+
 .popular ul {
     padding: 0px 0 0 25px;
 }
+
 .popular li {
     padding: 0px 0 16px 0;
 }
@@ -174,4 +180,61 @@ button {
     border-radius: 8px;
     border: 0;
     margin-top: 32px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/* Choose CSS */
+.choose-content {
+    text-align: center;
+}
+
+.choose-description {
+    padding: 0 265px;
+    margin: 0;
+}
+
+.choose-card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 48px;
+}
+.choose-card-container-2 {
+    display: grid;
+    margin-top: 24px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 800;
+    margin: 32px 0 16px 0;
+}
+.card-description {
+    padding-right: 40px;
+    margin-bottom: 0;
+    color: #5A5A5D;
+}
+
+.choose-card-1 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+}
+
+.choose-card-2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 32px;
+}
+
+.choose-card-3 {
+    padding: 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: 44%;
+    place-self: center;
 }
