@@ -4,6 +4,7 @@
 body {
     padding: 0px 135px;
     font-family: "Mulish", sans-serif;
+    margin: 0;
 }
 
 section {
@@ -200,6 +201,7 @@ button {
     gap: 24px;
     margin-top: 48px;
 }
+
 .choose-card-container-2 {
     display: grid;
     margin-top: 24px;
@@ -210,6 +212,7 @@ button {
     font-weight: 800;
     margin: 32px 0 16px 0;
 }
+
 .card-description {
     padding-right: 40px;
     margin-bottom: 0;
@@ -237,4 +240,56 @@ button {
     background: rgba(233, 68, 68, 0.05);
     width: 44%;
     place-self: center;
+}
+
+/*  Choose Your Destination */
+.destination-content {
+    text-align: center;
+}
+
+.destination-description {
+    margin-top: 0;
+    margin-bottom: 48px;
+    padding: 0 265px;
+}
+
+.destination-img-container {
+    display: grid;
+    gap: 24px;
+}
+
+.row-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    place-self: center;
+}
+
+.row-2 {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    gap: 24px;
+    place-self: center;
+}
+
+.row-3 {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    gap: 24px;
+    place-self: center;
+}
+
+.destination-img {
+    position: relative;
+}
+.location-name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    transform: translate(-50%, -50%);
+    margin: 0;
 }

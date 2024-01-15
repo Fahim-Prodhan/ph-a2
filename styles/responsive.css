@@ -6,7 +6,8 @@
     section {
         margin-top: 24px;
     }
-    .section-title{
+
+    .section-title {
         font-size: 22px;
         font-weight: 800;
         margin-bottom: 16px;
@@ -82,6 +83,11 @@
     .choose-card-container {
         margin-top: 16px;
         grid-template-columns: repeat(1, 1fr);
+        gap: 16px;
+    }
+
+    .choose-card-container-2 {
+        margin-top: 16px;
     }
 
     .choose-card-3 {
@@ -89,6 +95,35 @@
         width: 82%;
         grid-column: span 1;
         justify-self: self-start;
+    }
+
+
+/*  Choose Your Destination */
+
+    .destination-description {
+        margin-bottom: 16px;
+        padding: 0 10px;
+    }
+
+    .destination-img-container img {
+        width: 375px;
+        height: 176px;
+    }
+
+    .row-1 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .row-2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .row-3 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .location-name {
+        font-size: 20px;
     }
 
 }
@@ -120,8 +155,30 @@
     .choose-card-container {
         margin-top: 20px;
     }
+
     .choose-description {
         padding: 50px;
+    }
+
+    .destination-description {
+        margin-bottom: 16px;
+        padding: 0 10px;
+    }
+
+    .destination-img-container img {
+        width: 100%;
+    }
+
+    .row-1 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .row-2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .row-3 {
+        grid-template-columns: repeat(1, 1fr);
     }
 
 }
