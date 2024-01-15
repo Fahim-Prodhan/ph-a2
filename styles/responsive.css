@@ -63,6 +63,7 @@
         flex-direction: column;
         gap: 24px;
     }
+
     .popular-img {
         width: 100%;
     }
@@ -79,6 +80,16 @@
 
     .nav-left h3 {
         font-size: 21px;
+    }
+
+    /* popular */
+    .popular {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .popular-img {
+        width: 100%;
     }
 
 }

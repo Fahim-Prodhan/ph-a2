@@ -146,3 +146,32 @@ button {
     color: #FFF;
     background: var(--button-color);
 }
+
+/* Popular CSS */
+
+.popular {
+    display: flex;
+    gap: 10%;
+}
+.popular-description{
+    margin: 0 0 24px 0;
+}
+.popular-description-2 {
+    margin: 8px 0 0px 0;
+    color: #5A5A5D;
+}
+.popular ul {
+    padding: 0px 0 0 25px;
+}
+.popular li {
+    padding: 0px 0 16px 0;
+}
+
+.popular-btn {
+    background-color: var(--button-color);
+    color: #FFF;
+    padding: 14px 35px;
+    border-radius: 8px;
+    border: 0;
+    margin-top: 32px;
+}
