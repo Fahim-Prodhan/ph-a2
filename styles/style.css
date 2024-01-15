@@ -2,9 +2,12 @@
 
 
 body {
-    padding: 0px 135px;
     font-family: "Mulish", sans-serif;
     margin: 0;
+}
+
+header, main {
+    padding: 0px 135px;
 }
 
 section {
@@ -28,6 +31,11 @@ a {
 h3,
 h6 {
     color: #131318;
+}
+
+hr {
+    border: 1px solid rgba(19, 19, 24, 0.10);
+    margin: 24px 0;
 }
 
 button {
@@ -197,14 +205,9 @@ button {
 
 .choose-card-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr auto;
     gap: 24px;
     margin-top: 48px;
-}
-
-.choose-card-container-2 {
-    display: grid;
-    margin-top: 24px;
 }
 
 .card-title {
@@ -224,6 +227,7 @@ button {
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
     padding: 32px;
+    grid-column: span 1;
 }
 
 .choose-card-2 {
@@ -231,6 +235,7 @@ button {
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
     padding: 32px;
+    grid-column: span 1;
 }
 
 .choose-card-3 {
@@ -238,8 +243,9 @@ button {
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
-    width: 44%;
-    place-self: center;
+    grid-column: span 2;
+    justify-self: center;
+    width: calc(50% - 24px);
 }
 
 /*  Choose Your Destination */
@@ -283,6 +289,7 @@ button {
 .destination-img {
     position: relative;
 }
+
 .location-name {
     position: absolute;
     top: 50%;
@@ -291,5 +298,95 @@ button {
     font-size: 28px;
     font-weight: 800;
     transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+/*  */
+.newsletter {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.newsletter-left {
+    background: #FFF;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+}
+
+.newsletter-left p {
+    padding-right: 25%;
+    margin: 0;
+    color: #5A5A5D;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.newsletter-left h3 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.newsletter-left div {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.newsletter-left input {
+    padding: 16px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.newsletter-left button {
+    border: 0;
+    border-radius: 8px;
+    background: var(--button-color);
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 14px 100px;
+}
+
+::placeholder {
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+.newsletter-right {
+    position: relative;
+}
+
+.save {
+    position: absolute;
+    bottom: 20%;
+    right: 2%;
+    background-color: var(--button-color);
+    border-radius: 16px;
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    text-align: center;
+}
+
+.save>p {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 24px;
+    margin: 0;
+}
+
+.save>h3 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
     margin: 0;
 }

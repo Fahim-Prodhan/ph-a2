@@ -1,5 +1,6 @@
 @media screen and (max-width:600px) {
-    body {
+
+    header, main {
         padding: 0px 20px;
     }
 
@@ -85,45 +86,74 @@
         grid-template-columns: repeat(1, 1fr);
         gap: 16px;
     }
-
-    .choose-card-container-2 {
-        margin-top: 16px;
-    }
-
     .choose-card-3 {
         padding: 32px;
-        width: 82%;
         grid-column: span 1;
-        justify-self: self-start;
+        width: calc(100% - 66px)
     }
 
 
-/*  Choose Your Destination */
+    /*  Choose Your Destination */
 
     .destination-description {
         margin-bottom: 16px;
         padding: 0 10px;
     }
+    
+    .destination-img-container {
+        gap: 16px;
+    }
 
     .destination-img-container img {
-        width: 375px;
+        width: 335px;
         height: 176px;
     }
 
     .row-1 {
         grid-template-columns: repeat(1, 1fr);
+        gap: 16px;
     }
 
     .row-2 {
         grid-template-columns: repeat(1, 1fr);
+        gap: 16px;
     }
 
     .row-3 {
         grid-template-columns: repeat(1, 1fr);
+        gap: 16px;
     }
 
     .location-name {
         font-size: 20px;
+    }
+
+    .newsletter {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .newsletter img {
+        width: 100%;
+    }
+
+    .newsletter-left {
+        padding: 23px;
+    }
+
+    .save {
+        width: 214.023px;
+        height: 80px;
+        bottom: 16%;
+        right: 2%;
+    }
+
+    .save >h3  {
+       font-size: 22px;
+    }
+
+    .save >p  {
+        padding-top: 16px;
+       font-size: 16px;
     }
 
 }
