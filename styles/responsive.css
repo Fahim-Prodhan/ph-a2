@@ -203,7 +203,9 @@
     .simple-left > h3 {
         font-size: 20px;
         padding-right: 130px;
-
+    }
+    .simple-left ul > li {
+        font-size: 14px;
     }
     .simple-right h4 {
         bottom: 35%;
@@ -228,7 +230,7 @@
 
     .review .review-description {
         margin: 0;
-        padding: 0 65px 20px;
+        padding: 0 0px 20px;
     }
 
 
@@ -250,8 +252,8 @@
     .save {
         width: 215px;
         height: 80px;
-        bottom: 12%;
-        right: 2%;
+        bottom: 13%;
+        right: 1%;
     }
 
     .save>h3 {
