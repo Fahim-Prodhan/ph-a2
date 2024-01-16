@@ -138,6 +138,64 @@
         font-size: 20px;
     }
 
+    /* Deals and discount */
+
+.deal-description {
+    padding: 10px 16px;
+}
+
+.deal-bg-2 {
+    margin: 16px 0;
+}
+
+.deal-details-container {
+    width: 335px;
+    height: 350px;
+    top: 25%;
+    left: 6.5%;
+
+}
+
+.deal-details-mid-container {
+    top: 25%;
+    left: 6.5%;
+}
+
+.deal-details {
+    padding: 20px 20px 0;
+}
+
+.deals-icons {
+    gap: 23px;
+    flex-wrap: wrap;
+}
+
+.deal-details-title {
+    font-size: 20px;
+    padding: 16px 0 16px 0;
+}
+
+.deal-details-description {
+    padding-bottom: 16px;
+}
+
+.price {
+    font-size: 16px;
+    padding-bottom: 25px;
+}
+
+.book {
+    font-size: 18px;
+    padding: 8px 20px;
+}
+
+.package-btn > button {
+    font-size: 18px;
+    padding: 8px 20px;
+    margin-top: 24px;
+
+}
+
     /* review */
     .review-card-container {
         display: flex;
@@ -163,6 +221,7 @@
 
     .newsletter img {
         width: 100%;
+        height: 100%;
     }
 
     .newsletter-left {
@@ -170,9 +229,9 @@
     }
 
     .save {
-        width: 214.023px;
+        width: 215px;
         height: 80px;
-        bottom: 16%;
+        bottom: 12%;
         right: 2%;
     }
 
