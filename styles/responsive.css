@@ -1,6 +1,7 @@
 @media screen and (max-width:600px) {
 
-    header, main {
+    header,
+    main {
         padding: 0px 20px;
     }
 
@@ -86,6 +87,7 @@
         grid-template-columns: repeat(1, 1fr);
         gap: 16px;
     }
+
     .choose-card-3 {
         padding: 32px;
         grid-column: span 1;
@@ -99,7 +101,7 @@
         margin-bottom: 16px;
         padding: 0 10px;
     }
-    
+
     .destination-img-container {
         gap: 16px;
     }
@@ -147,21 +149,51 @@
         right: 2%;
     }
 
-    .save >h3  {
-       font-size: 22px;
+    .save>h3 {
+        font-size: 22px;
     }
 
-    .save >p  {
+    .save>p {
         padding-top: 16px;
-       font-size: 16px;
+        font-size: 16px;
+    }
+
+    /* Footer */
+    footer {
+        height: 309px;
+        margin-top: 20px;
+    }
+
+
+    .footer-title h3 {
+        font-size: 22px;
+
+    }
+
+    footer p {
+        padding: 0 45px;
+        margin: 16px 0 0 00;
+    }
+
+    .footer-icon i {
+        margin: 32px 16px 24px 0;
+    }
+
+    footer hr {
+        width: 345px;
+        margin: 0 auto 24px auto;
+    }
+
+    .rights {
+        margin-top: 0;
     }
 
 }
 
 @media screen and (min-width:601px) and (max-width:991px) {
-    body {
-        padding: 0px 40px;
-    }
+header, main {
+    padding:0 40px;
+}
 
     .nav {
         padding: 25px 0;
@@ -209,6 +241,26 @@
 
     .row-3 {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .newsletter {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .newsletter img {
+        width: 100%;
+    }
+    .save {
+        bottom: 11%;
+        right: 2%;
+    }
+
+    footer p {
+        padding: 0 45px;
+        margin: 16px 0 0 00;
+    }
+    footer hr {
+        margin: 0 auto 24px auto;
     }
 
 }
