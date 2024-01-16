@@ -149,16 +149,15 @@
     }
 
     .deal-details-container {
-        width: 335px;
-        height: 350px;
-        top: 25%;
-        left: 6.5%;
-
+        width: 80%;
+        height: 300px;
+        top: 30%;
+        left: 9%;
     }
 
     .deal-details-mid-container {
-        top: 25%;
-        left: 6.5%;
+        top: 30%;
+        left: 9%;
     }
 
     .deal-details {
