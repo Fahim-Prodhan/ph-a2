@@ -194,61 +194,6 @@ button {
     font-weight: 800;
 }
 
-/* Choose CSS */
-.choose-content {
-    text-align: center;
-}
-
-.choose-description {
-    padding: 0 265px;
-    margin: 0;
-}
-
-.choose-card-container {
-    display: grid;
-    grid-template-rows: 1fr auto;
-    gap: 24px;
-    margin-top: 48px;
-}
-
-.card-title {
-    font-size: 24px;
-    font-weight: 800;
-    margin: 32px 0 16px 0;
-}
-
-.card-description {
-    padding-right: 40px;
-    margin-bottom: 0;
-    color: #5A5A5D;
-}
-
-.choose-card-1 {
-    border-radius: 16px;
-    border: 1px solid rgba(251, 181, 99, 0.20);
-    background: rgba(251, 181, 99, 0.05);
-    padding: 32px;
-    grid-column: span 1;
-}
-
-.choose-card-2 {
-    border-radius: 16px;
-    border: 1px solid rgba(41, 206, 246, 0.20);
-    background: rgba(41, 206, 246, 0.05);
-    padding: 32px;
-    grid-column: span 1;
-}
-
-.choose-card-3 {
-    padding: 32px;
-    border-radius: 16px;
-    border: 1px solid rgba(233, 68, 68, 0.20);
-    background: rgba(233, 68, 68, 0.05);
-    grid-column: span 2;
-    justify-self: center;
-    width: calc(50% - 24px);
-}
-
 /*  Choose Your Destination */
 .destination-content {
     text-align: center;
@@ -302,7 +247,96 @@ button {
     margin: 0;
 }
 
-/*  */
+/* Choose CSS */
+.choose-content {
+    text-align: center;
+}
+
+.choose-description {
+    padding: 0 265px;
+    margin: 0;
+}
+
+.choose-card-container {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 800;
+    margin: 32px 0 16px 0;
+}
+
+.card-description {
+    padding-right: 40px;
+    margin-bottom: 0;
+    color: #5A5A5D;
+}
+
+.choose-card-1 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+    grid-column: span 1;
+}
+
+.choose-card-2 {
+    border-radius: 16px;
+    border: 1px solid #29cef633;
+    background: rgba(41, 206, 246, 0.05);
+    padding: 32px;
+    grid-column: span 1;
+}
+
+.choose-card-3 {
+    padding: 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.051);
+    grid-column: span 2;
+    justify-self: center;
+    width: calc(50% - 24px);
+}
+
+/* Customer Review */
+.review {
+    text-align: center;
+}
+.review .review-description {
+    margin: 0;
+    padding:0 265px 48px;
+}
+.review-card-container {
+    display: flex;
+    gap: 24px; 
+}
+
+.review-card > h3 {
+    font-size: 24px;
+}
+
+.review-card {
+    background-color: #9aebff33;
+    padding: 40px;
+    border-radius: 8px;
+}
+.stars> i {
+    color: #FF5400;
+}
+
+.customer-img {
+    width: 35%;
+    border: 5px solid #fff;
+    border-radius: 50%;
+}
+
+
+
+/*  Newsletter section css*/
 .newsletter {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

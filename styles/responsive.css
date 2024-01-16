@@ -82,6 +82,10 @@
         padding: 0px;
     }
 
+    .card-title {
+        font-size: 20px;
+    }
+
     .choose-card-container {
         margin-top: 16px;
         grid-template-columns: repeat(1, 1fr);
@@ -100,6 +104,10 @@
     .destination-description {
         margin-bottom: 16px;
         padding: 0 10px;
+    }
+
+    .review-card > h3 {
+        font-size: 20px;
     }
 
     .destination-img-container {
@@ -129,6 +137,25 @@
     .location-name {
         font-size: 20px;
     }
+
+    /* review */
+    .review-card-container {
+        display: flex;
+        flex-direction: column;
+        gap: 16px; 
+    }
+
+    .review-card {
+        padding: 20px;
+    }
+
+    .review .review-description {
+        margin: 0;
+        padding:0 65px 20px;
+    }
+    
+
+    /* Newsletter */
 
     .newsletter {
         grid-template-columns: repeat(1, 1fr);
