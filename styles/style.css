@@ -500,6 +500,7 @@ button {
 .review-card-container {
     display: flex;
     gap: 24px;
+    justify-content: space-between;
 }
 
 .review-card>h3 {
